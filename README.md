@@ -1,20 +1,3 @@
-#crea entorno virtual
-C:\Users\XCPC\Desktop\pasantia\semana0_alejandro_solis>python -m venv env
-
-#activar entorno virtual
-C:\Users\XCPC\Desktop\pasantia\semana0_alejandro_solis>.\env\Scripts\activate
-
-#instala librerias necesarias
-(env) C:\Users\XCPC\Desktop\pasantia\semana0_alejandro_solis>pip install fastapi uvicorn requests python-dotenv ollama
-Collecting fastapi
-
-(env) C:\Users\XCPC\Desktop\pasantia\semana0_alejandro_solis>curl http://localhost:11434
-Ollama is running
-
-(env) C:\Users\XCPC\Desktop\pasantia\semana0_alejandro_solis>ollama run deepseek-r1
-
-#ejecutar el servidor puerto 8000
-PS C:\Users\XCPC\Desktop\pasantia\semana0_alejandro_solis> uvicorn app.main:app --reload
 
 *******************************************************************************************************************
 # DESCRIPCION DE TECNOLOGIAS UTILIZADAS
