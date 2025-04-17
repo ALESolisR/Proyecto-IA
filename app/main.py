@@ -50,7 +50,6 @@ async def preguntar(pregunta: Pregunta):
         raise HTTPException(status_code=500, detail="Variables de entorno no definidas")
 
     # Configuración de la solicitud a Ollama
-    #url = "http://localhost:11434/api/generate"
     payload = {
         "model": model,  #modelo descargado en Ollama
         "prompt": pregunta.texto,
